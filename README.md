@@ -1,0 +1,1 @@
+This is a python script that will take a directory of XML files exported from JS-Kit, and transform them into a format suitable to submit to Echo2 via their api.
