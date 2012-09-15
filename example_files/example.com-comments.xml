@@ -1,0 +1,68 @@
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:jskit="http://js-kit.com/schemas/rss/rss-c">
+	<channel>
+		<title>/example.com/comments.htm?id=gqXNnNffyO2HJpnFqEiEBCwv4VcPf1s6MVadEeu55uOnc4hJhb3dGQ%3d%3d&amp;nav=Social2 comments</title>
+		<link>https://example.com/comments.htm?id=gqXNnNffyO2HJpnFqEiEBCwv4VcPf1s6MVadEeu55uOnc4hJhb3dGQ%3d%3d&amp;nav=Social2</link>
+		<atom:link rel="self" type="application/rss+xml" href="http://js-kit.com/rss/js-kit.com/rss/joeuser1"></atom:link>
+		<jskit:attribute key="path" value="/joeuser1"></jskit:attribute>
+		<description>RSS comments feed for /example.com/comments.htm?id=gqXNnNffyO2HJpnFqEiEBCwv4VcPf1s6MVadEeu55uOnc4hJhb3dGQ%3d%3d&amp;nav=Social2</description>
+		<generator>JS-Kit Bulk Site Exporter 0.8</generator>
+		<lastBuildDate>Fri, 07 Sep 2012 17:27:51 +0000</lastBuildDate>
+		<item>
+			<guid>jsid-134703887112313-962</guid>
+			<pubDate>Fri, 07 Sep 2012 17:27:51 +0000</pubDate>
+			<jskit:attribute key="IP" value="216.81.169.185"></jskit:attribute>
+			<jskit:attribute key="permalink" value="https://example.com/comments.htm?id=gqXNnNffyO2HJpnFqEiEBCwv4VcPf1s6MVadEeu55uOnc4hJhb3dGQ%3d%3d&amp;amp;nav=Social2"></jskit:attribute>
+			<jskit:attribute key="user_identity" value="openid http://example.com/user/joeuser/"></jskit:attribute>
+			<author>Joe User</author>
+			<jskit:attribute key="share_gfc" value="off"></jskit:attribute>
+			<jskit:attribute key="share_twitter" value="off"></jskit:attribute>
+			<jskit:attribute key="share_friendfeed" value="off"></jskit:attribute>
+			<jskit:attribute key="share_yahoo" value="off"></jskit:attribute>
+			<jskit:attribute key="Webpresence" value="[[&quot;login-epb&quot;,&quot;&quot;],[&quot;login-jskit&quot;,&quot;http://geosupport.js-kit.com/&quot;]]"></jskit:attribute>
+			<description>Making a comment from the 2nd URL</description>
+		</item>
+		<item>
+			<guid>jsid-1347036535514213-551</guid>
+			<pubDate>Fri, 07 Sep 2012 16:48:55 +0000</pubDate>
+			<jskit:attribute key="IP" value="216.81.169.185"></jskit:attribute>
+			<jskit:attribute key="permalink" value="https://example.com/comments.htm?id=4nWLh%2fjyEzt1x9vszYgMGn2U%2fDormmeUzN0GuLTmrL9jiQMj1JAIHQ%3d%3d&amp;amp;nav=Social1"></jskit:attribute>
+			<jskit:attribute key="user_identity" value="openid http://example.com/user/joeuser/"></jskit:attribute>
+			<author>Joe User</author>
+			<jskit:attribute key="share_gfc" value="off"></jskit:attribute>
+			<jskit:attribute key="share_twitter" value="off"></jskit:attribute>
+			<jskit:attribute key="share_friendfeed" value="off"></jskit:attribute>
+			<jskit:attribute key="share_yahoo" value="off"></jskit:attribute>
+			<jskit:attribute key="Webpresence" value="[[&quot;login-epb&quot;,&quot;&quot;],[&quot;login-jskit&quot;,&quot;http://geosupport.js-kit.com/&quot;]]"></jskit:attribute>
+			<description>This is a comment on Social1. Testing if comments show up across pages in same widget</description>
+		</item>
+		<item>
+			<guid>jsid-1345044187662423-340</guid>
+			<pubDate>Wed, 15 Aug 2012 15:23:07 +0000</pubDate>
+			<jskit:attribute key="IP" value="216.81.169.185"></jskit:attribute>
+			<jskit:attribute key="permalink" value="https://tmilla1.sumtotalsystems.com/geonext/coursesummary.CourseCatalog.geo?src=CourseCatalog&amp;amp;selectTab=Details&amp;amp;id=22506129888"></jskit:attribute>
+			<jskit:attribute key="user_identity" value="openid http://example.com/user/defaultdomain/geositeadmin/"></jskit:attribute>
+			<author>Site Administrator</author>
+			<jskit:attribute key="share_gfc" value="off"></jskit:attribute>
+			<jskit:attribute key="share_twitter" value="off"></jskit:attribute>
+			<jskit:attribute key="share_friendfeed" value="off"></jskit:attribute>
+			<jskit:attribute key="share_yahoo" value="off"></jskit:attribute>
+			<jskit:attribute key="Webpresence" value="[[&quot;login-epb&quot;,&quot;&quot;]]"></jskit:attribute>
+			<description>bar bar 2</description>
+			<jskit:parent-guid>jsid-1345044121929737-289</jskit:parent-guid>
+		</item>
+		<item>
+			<guid>jsid-1345044121929737-289</guid>
+			<pubDate>Wed, 15 Aug 2012 15:22:01 +0000</pubDate>
+			<jskit:attribute key="IP" value="216.81.169.185"></jskit:attribute>
+			<jskit:attribute key="permalink" value="https://tmilla1.sumtotalsystems.com/geonext/coursesummary.CourseCatalog.geo?src=CourseCatalog&amp;amp;selectTab=Details&amp;amp;id=22506129888"></jskit:attribute>
+			<jskit:attribute key="user_identity" value="openid http://example.com/user/defaultdomain/geositeadmin/"></jskit:attribute>
+			<author>Site Administrator</author>
+			<jskit:attribute key="share_gfc" value="off"></jskit:attribute>
+			<jskit:attribute key="share_twitter" value="off"></jskit:attribute>
+			<jskit:attribute key="share_friendfeed" value="off"></jskit:attribute>
+			<jskit:attribute key="share_yahoo" value="off"></jskit:attribute>
+			<jskit:attribute key="Webpresence" value="[[&quot;login-epb&quot;,&quot;&quot;]]"></jskit:attribute>
+			<description>foo foo 2</description>
+		</item>
+	</channel>
+</rss>
