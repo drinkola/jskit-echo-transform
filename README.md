@@ -8,10 +8,8 @@ usage: Social Conversion [-h] [--s] [--file FILE] [--input_path INPUT_PATH]
 Convert JSKit Xml to Echo2 format
 
 optional arguments:
-  -h, --help            show this help message and exit
-  --s                   send to echo
-  --file FILE           name of single file to process
-  --input_path INPUT_PATH
-                        location of files to process
-  --output_path OUTPUT_PATH
-                        write xml to this file
+  -h, --help				show this help message and exit
+  --s						send to echo
+  --file FILE				name of single file to process
+  --input_path INPUT_PATH	location of files to process
+  --output_path OUTPUT_PATH	write xml to this file
