@@ -74,7 +74,7 @@ class Convert:
 				newXml += self.GetActivityTarget(self.GetParent(item, stream, domain))
 				newXml += '</entry>'
 				itemCount+=1
-				if(itemCount == 100):
+				if(itemCount % 100 == 0):
 					newXml+= '</feed>'
 					xmlArray.append(minidom.parseString(newXml))
 					newXml = '<feed xlmns="http://www.w3.org/2005/Atom" xmlns:echo="http://js-kit.com/spec/e2/v1" xmlns:activity="http://activitystrea.ms/spec/1.0/">'
@@ -105,7 +105,7 @@ class Convert:
 		return '<{0}>{1}</{0}>'.format(tag, value)
 
 	def AddTagWithAttributes(self, tag, value, attr, attrValues):
-		encoded = value.encode('utf-8').replace('<', '&amp;lt;').replace('>', '&amp;gt;')
+		encoded = value.encode('utf-8').replace('<', '&lt;').replace('>', '&gt;')
 		xml = '<' + tag
 		for x, y in zip(attr, attrValues):
 			xml += ' {0}="{1}"'.format(x, y)
@@ -138,18 +138,28 @@ class Convert:
 		return response.read()
 		
 	def MagicHappensHere(self, xmlList):
-		if (self.sendToEcho == True):
-			self.log('Sending Comments to Echo')
-			for xml in xmlList:
-				self.log('Sending chunk to Echo')
-				result = self.SendCommentsToEcho(xml)
-				self.log('Response:' + result)
+		failedXml = []
 		if (self.outputPath != ''):
 			self.log('Writing to file')
 			file = open(self.outputPath, 'w')
 			for xml in xmlList:
 				file.write(xml.toprettyxml(encoding='utf-8'))
 			file.close()
+		if (self.sendToEcho == True):
+			self.log('Sending Comments to Echo')
+			for xml in xmlList:
+				self.log('Sending chunk to Echo')
+				try:
+					result = self.SendCommentsToEcho(xml)
+				except urllib2.HTTPError:
+					failedXml.append(xml)
+				self.log('Response:' + result)
+				time.sleep(2)
+		if (len(failedXml) > 0):
+			for xml in failedXml:
+				print xml.toxml()
+				print
+				print
 
 
 	def Run(self):
